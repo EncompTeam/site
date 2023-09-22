@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+@import 'reset';
+@import 'media-queries';
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-black-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -30.98%, #000 73.58%);
+  --color-purple-primary: #5B1982;
+  --color-purple-light: #7C479B;
+  --color-purple-dark: #441362;
+  --color-green-primary: #13CFA8;
+  --color-green-light: #42D9B9;
+  --color-green-dark: #0E9B7E;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: var(--color-black);
+}
